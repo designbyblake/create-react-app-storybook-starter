@@ -24,7 +24,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:ci": "npm run test -- --watchAll=false --reporters=default --reporters=jest-junit",
+    "test:ci": "npm run test -- --watchAll=false",
     "coverage": "npm test -- --coverage",
     "lint": "eslint \"**/*.{ts,tsx,js}\"",
     "lint:fix": "eslint \"**/*.{ts,tsx,js}\" --fix",
